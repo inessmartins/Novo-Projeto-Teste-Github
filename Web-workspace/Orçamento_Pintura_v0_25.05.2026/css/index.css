@@ -1,0 +1,50 @@
+@im@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&family=Playwrite+GB+S+Guides:ital@0;1&display=swap');
+
+* {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.playwrite-gb-j-font {
+  font-family: "Playwrite GB J", cursive;
+  font-optical-sizing: auto;
+  font-weight: 150;
+  font-style: normal;
+}
+
+body {
+    background-color: rgb(230, 225, 225);
+}
+
+header{
+background-color: transparent;
+text-align: center;
+color: rgb(232, 25, 25);
+padding: 15px;
+}
+
+.logo {
+    width: 200px;
+    box-shadow: 5px 5px 10px black;
+    /* filter:drop-shadow(5px 5px 10px black)); */
+border-radius: 10px;
+}
+.navbar {
+background-color:  rgb(232, 25, 25);
+
+}
+.logo-menu {
+    width: 40px;
+}
+.hero-section {
+    background-image: url(../assets/img/principal.png);
+    height: 400px;
+    background-size: cover;
+}
+
+.features-section {
+padding:200px;
+}
